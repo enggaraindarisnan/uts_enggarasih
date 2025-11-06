@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: #fff9fb;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcce0;
+  padding: 15px 60px;
+}
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #7b3363;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #7b3363;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav a:hover, nav a.active {
+  color: #ff5fa2;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(rgba(255, 204, 224, 0.6), rgba(255, 255, 255, 0.9)),
+              url('http://www.stagepittsburgh.com/wp-content/uploads/2023/11/lany-banner.png-1.webp') center/cover no-repeat;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 46px;
+  color: #7b3363;
+}
+.hero p {
+  color: #555;
+  font-size: 18px;
+}
+
+.tour {
+  padding: 50px 80px;
+  text-align: center;
+}
+.tour h2 {
+  color: #e58cc7;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+.tour-card {
+  background-color: #ffe6f0;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tour-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+.tour-card h3 {
+  margin: 5px 0;
+  color: #7b3363;
+}
+.tour-card p {
+  margin: 4px 0;
+  color: #555;
+}
+.tour-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #7b3363;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.tour-card a:hover {
+  background-color: #ff5fa2;
+}
+
+.fanclub {
+  background-color: #fce7ef;
+  padding: 60px 80px;
+}
+.fanclub h2 {
+  text-align: center;
+  color: #e98ac9;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  font-weight: 600;
+  color: #7b3363;
+}
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Lora', serif;
+}
+button {
+  background-color: #7b3363;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #ff5fa2;
+}
+
+footer {
+  background-color: #ffcce0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #7b3363;
+}
+footer a {
+  color: #7b3363;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ff5fa2;
+}

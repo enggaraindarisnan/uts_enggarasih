@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background: #fff9fb;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcce0;
+  padding: 15px 60px;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #7b3363;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7b3363;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+  color: #ff5fa2;
+}
+
+.hero {
+  background: linear-gradient(rgba(255, 204, 224, 0.5), rgba(255, 255, 255, 0.9)),
+              url('http://www.stagepittsburgh.com/wp-content/uploads/2023/11/lany-banner.png-1.webp') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  color: #7b3363;
+}
+
+.hero-content p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #ff8fb1;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff5fa2;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+.news {
+  width: 65%;
+}
+
+.news h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #7b3363;
+}
+
+.news article {
+  background-color: #ffe6f0;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.news article h3 a {
+  color: #7b3363;
+  text-decoration: none;
+}
+
+.news article h3 a:hover {
+  color: #ff5fa2;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.widget {
+  background-color: #ffe6f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.widget h3 {
+  color: #7b3363;
+}
+
+footer {
+  background-color: #ffcce0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #7b3363;
+}
+
+footer a {
+  color: #7b3363;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff5fa2;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LANY | Gallery</title>
+  <link rel="stylesheet" href="gal.css" />
+  <link rel="icon" href="https://i.pinimg.com/originals/14/86/8c/14868c33dc242f017c0012ac65654387.jpg" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">LANY</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gal.html" class="active">Gallery</a></li>
+        <li><a href="regis.html">Registration</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Album & Concert Gallery</1>
+    <p>The Sound of Feelings - captured in every moment.</p>
+  </section>
+
+  <main>
+    <h2>Album Collection</h2>
+    <div class="album-grid">
+      <div class="album-card" onclick="openModal('lany2017')">
+        <img src="https://4.bp.blogspot.com/-OK3csPjx_EU/WV76_oZTtXI/AAAAAAAAAj0/IgXUxCfiURw_LlCBS1dztHgQf7F7RCEygCPcBGAYYCw/s1600/lany.png" alt="LANY (2017)">
+        <h2><a href="albumlany.html">LANY</a></h2>
+      </div>
+      <div class="album-card" onclick="openModal('malibu')">
+        <img src="https://e.snmc.io/i/1200/s/6ed56e48402e02463fb1b0d6584ab114/7154480" alt="Malibu Nights">
+        <h2><a href="albummalibunight.html">Malibu Nights</a></h2>
+      </div>
+      <div class="album-card" onclick="openModal('mamas')">
+        <img src="https://images.genius.com/ab49aaba739ae5fd9d9c52b521777fcb.1000x1000x1.jpg" alt="mama’s boy">
+        <h2><a href="albummama.html">mama's boy</a></h2>
+      </div>
+      <div class="album-card" onclick="openModal('ggbbxx')">
+        <img src="https://giggoer.com/wp-content/uploads/2021/07/LANY-new-album-2021-600x600.png" alt="gg bb xx">
+        <h2><a href="albumggbbxx.html">gg bb xx</a></h2>
+      </div>
+      <div class="album-card" onclick="openModal('beautiful')">
+        <img src="https://thetedellis.com/wp-content/uploads/2023/07/LANY-A-Beautiful-Blur-Signed-CD.jpg" alt="A Beautiful Blur">
+        <h2><a href="albumabeauti.html">A Beautiful Blur</a></h2>
+      </div>
+      <div class="album-card" onclick="openModal('soft')">
+        <img src="https://image.idntimes.com/post/20251010/our-6th-studio-album-soft-out-now_53df0c4c-18aa-4807-9336-cdbe2ee1c1fc.jpg" alt="Soft">
+        <h2><a href="albumsoft.html">Soft</a></h2>
+      </div>
+    </div>
+
+    <h2>Concert Moments</h2>
+    <div class="concert-grid">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.lUyu-6WRyv-j_0jVFanLqwHaE8?pid=Api&P=0&h=180" alt="Concert 1">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.eG_Ddy4DdX-LXh0EeuXxtQHaE7?pid=Api&P=0&h=180" alt="Concert 2">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.PfwX1vR2dlR8gYHChIvSBwHaE8?pid=Api&P=0&h=180" alt="Concert 3">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.wmA5MdMdGekKo7aRQYs1ZAHaE8?pid=Api&P=0&h=180" alt="Concert 4">
+    </div>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 LANY Project UTS | Designed by Enggar</p>
+    <p>Official Website: <a href="https://thisislany.com" target="_blank">www.thisislany.com</a></p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
